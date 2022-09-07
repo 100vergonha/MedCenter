@@ -1,0 +1,224 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin:0;
+    padding: 0;
+    padding-bottom: 300px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+:root{
+    --color-preto_claro: #1e1e1e; 
+    --color-preto: black;
+      --color-azul_claro: #39aae1;
+      --color-azul_escuro:#2b4c99;
+      --color-azul_meio:#0079c7;
+      --color-branco: white;
+      --color-zinza_letra:#727272;
+      --color-zinza_meio:#555555;
+      --color-zinza_escuro: #5c5c5c;
+}
+container{
+    justify-content: space-between;
+    display:flex ;
+    width:990px;
+   
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  
+}
+nav ul {
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-zinza_letra);
+    border-radius: 4px;
+}
+nav .active a,
+nav a:hover {
+    background-color: var(--color-azul_claro) ;
+    color: var(--color-branco)
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+.column{
+    flex-direction: column;
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1{
+    color:var(--color-branco);
+    font-size: 70px;
+    text-shadow: 0px 1px 0px var(--color-zinza_meio);
+    padding: 0;
+    margin: 0;
+    width: 350px;
+
+}
+.banner_headline h2{
+    color: var(--color-branco);
+    font-size: 21px;
+    text-shadow: var(--color-zinza_meio);
+    padding: 0;
+    margin: 0;
+    width: 350px ;
+    margin-top: 30px;
+
+}
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color:var(--color-branco);
+    padding: 20px;
+}
+.banner1{
+    background-color: var(--color-azul_claro)
+}
+.banner2{
+    background-color: var(--color-azul_meio)
+}
+.banner3{
+    background-color: var(--color-azul_escuro)
+}
+.banner_title{
+    font-size: 21px
+
+}
+.banner_desc{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+.banner_options a {
+    display: inline-block;
+    border: 1px solid var(--color-branco);
+    padding: 5px ;
+    color: var(--color-branco);
+    font-size: 13px;
+    text-decoration: none ;
+
+}
+.banner_deco{ 
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: 90px;
+}
+.banner_barra{
+     border-bottom: solid 1px var(--color-branco) ;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex:2
+}
+#geral aside{
+    flex:1
+}
+
+.widgt_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.widgt_title_text{
+    color: var(--color-preto);
+    font-size: 21px;
+    font-weight: bold;
+}
+.widgt_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: var(--color-azul_meio);
+    margin-top: 10px;
+
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article a{
+    text-decoration: none;
+}
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    font-size: 12px;
+    background-color: var(--color-azul_escuro);
+    color: var(--color-branco);
+    padding: 10px;
+    margin-right: 2px;
+}
+article .news_comnec{
+    background-color: var(--color-azul_claro);
+    color: var(--color-branco);
+    font-size: 12px;
+    padding: 10px;
+}
+article .neymar {
+    margin-top: 30px;
+}
+article .neymar img{
+    height: 250px;
+    width: auto;
+}
+article .news_title{
+    font-size: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--color-preto);
+}
+article .news_resume{
+    font-size:14px ;
+    color:var(--color-zinza_escuro);
+    line-height: 20px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
