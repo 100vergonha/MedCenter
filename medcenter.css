@@ -22,7 +22,7 @@ header{
       --color-zinza_meio:#555555;
       --color-zinza_escuro: #5c5c5c;
 }
-container{
+.container{
     justify-content: space-between;
     display:flex ;
     width:990px;
@@ -221,4 +221,26 @@ article .news_resume{
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+footer{
+    background-color: var(--color-preto_claro);
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{
+    display: flex;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    padding: 20px;
+}
+.fm_1{
+    background-color: var(--color-azul_claro);
+}
+.fm_2{
+    background-color:var(--color-azul_meio);
+}
+.fm_3{
+    background-color: var(--color-azul_escuro);
+
 }
