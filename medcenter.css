@@ -244,3 +244,13 @@ footer{
     background-color: var(--color-azul_escuro);
 
 }
+.flexColumn{
+    flex-direction: column;
+}
+.footer_area{
+    display: flex;
+    color:var(--color-branco);
+}
+.footer_area{
+    flex-direction: column;
+}
