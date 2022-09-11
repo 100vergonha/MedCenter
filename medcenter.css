@@ -243,6 +243,9 @@ footer{
     background-color: var(--color-azul_escuro);
 
 }
+.footer_menu a {
+    display: flex;
+}
 .flexColumn{
     flex-direction: column;
 }
