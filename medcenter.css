@@ -243,6 +243,23 @@ footer{
     background-color: var(--color-azul_escuro);
 
 }
+.title_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-branco);
+
+}
+.title_menu h3{
+    font-size: 26px;
+    margin: 0px;
+    padding: 0px;
+}
+.title_menu h4{
+    font-size:  16px;
+    margin: 0px;
+    padding: 0px;
+}
 .footer_menu a {
     display: flex;
 }
@@ -257,6 +274,7 @@ footer{
     color:var(--color-branco);
 
 }
+
 .footer_copy{
     border-top: 1px solid #2c2c2c;
     height: 40px;
