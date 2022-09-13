@@ -284,6 +284,18 @@ footer{
     color: var(--color-zinza_escuro);
     margin-top: 30px;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: var(--color-azul_claro);
+}
 @media (max-width:600px){
     .banner_headline{
         padding: 20px;
@@ -324,7 +336,8 @@ footer{
         flex-direction: row;
     }
     nav ul{
-        flex-direction: column
+        flex-direction: column;
+        display:none
     }
     header{
         height: auto;
@@ -333,6 +346,10 @@ footer{
         padding-left: 20px;
     }
     .menuMobile{
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
     }
+
 }
