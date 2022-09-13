@@ -256,7 +256,8 @@ footer{
     padding: 0px;
 }
 .title_menu h4{
-    font-size:  16px;
+    margin-top: 5px;
+    font-size:  14px;
     margin: 0px;
     padding: 0px;
 }
@@ -282,4 +283,56 @@ footer{
     font-size: 12px;
     color: var(--color-zinza_escuro);
     margin-top: 30px;
+}
+@media (max-width:600px){
+    .banner_headline{
+        padding: 20px;
+    }
+    .banner_headline h1{
+        font-size: 55px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+    .widgt_title {
+        margin-top: 125px;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column
+    }
+    header{
+        height: auto;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .menuMobile{
+        
+    }
 }
