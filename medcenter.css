@@ -244,9 +244,7 @@ footer{
 
 }
 .title_menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     color: var(--color-branco);
 
 }
