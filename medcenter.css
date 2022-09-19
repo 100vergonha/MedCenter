@@ -285,7 +285,7 @@ footer{
     margin-top: 30px;
 }
 .menuMobile{
-    display: no ne;
+    display: none;
     width: 40px;
     height: 40px;
     margin-top: 40px;
